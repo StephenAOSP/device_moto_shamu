@@ -41,6 +41,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     bootanimation/bootanimation.zip:/system/media/bootanimation.zip
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+    supersu/supersu.zip:/system/supersu/supersu.zip \
+    supersu/99SuperSUDaemon:/system/supersu/99SuperSUDaemon
+
 # Input device files for shamu
 PRODUCT_COPY_FILES += \
     device/moto/shamu/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
